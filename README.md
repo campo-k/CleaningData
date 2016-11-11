@@ -15,4 +15,5 @@
 4. dataMerge() function return tidy merge data(data frame) (Assign to variable.)
 5. Excute function "avrBySubject()" (This will return average of each variable for each subject.)
 6. Excute function "avrByActivity()" (This will return average of each variable for each activity.)
+6. Excute function "avrBySubjectAndActivity()" (This will return average of each variable for each subject and each activity.)
 

@@ -91,3 +91,12 @@ avrByActivity <- function(dataSet) {
     aggData <- dcast(meltDataSet, activity ~ variable, mean)
     aggData
 }
+
+# function for second data, average of each variable for each subject and each activity.
+avrBySubjectAndActivity <- function(dataSet) {
+    # use reshape2 library
+    library(reshape2)
+    meltDataSet <- melt(dataSet, id=c("subject", "activity"))
+    aggData <- dcast(meltDataSet, subject + activity ~ variable, mean)
+    aggData
+}
