@@ -1,14 +1,14 @@
 # function for data load in local directory
 loadData <- function() {
-    # if you want run this code, change the directory.
-    testS <- read.table("/Users/kbs/UCI HAR Dataset/test/subject_test.txt")
-    testL <- read.table("/Users/kbs/UCI HAR Dataset/test/y_test.txt")
-    testX <- read.table("/Users/kbs/UCI HAR Dataset/test/X_test.txt")
-    trainS <- read.table("/Users/kbs/UCI HAR Dataset/train/subject_train.txt")
-    trainL <- read.table("/Users/kbs/UCI HAR Dataset/train/y_train.txt")
-    trainX <- read.table("/Users/kbs/UCI HAR Dataset/train/X_train.txt")
-    featureName <- read.table("/Users/kbs/UCI HAR Dataset/features.txt")
-    activityLabel <- read.table("/Users/kbs/UCI HAR Dataset/activity_labels.txt")
+    # placed folder in working directory.
+    testS <- read.table("~UCI HAR Dataset/test/subject_test.txt")
+    testL <- read.table("~UCI HAR Dataset/test/y_test.txt")
+    testX <- read.table("~UCI HAR Dataset/test/X_test.txt")
+    trainS <- read.table("~/UCI HAR Dataset/train/subject_train.txt")
+    trainL <- read.table("~/UCI HAR Dataset/train/y_train.txt")
+    trainX <- read.table("~/UCI HAR Dataset/train/X_train.txt")
+    featureName <- read.table("~/UCI HAR Dataset/features.txt")
+    activityLabel <- read.table("`/UCI HAR Dataset/activity_labels.txt")
     
     # return data by list
     dataList <- list(testS, testL, testX, trainS, trainL, trainX, featureName, activityLabel)

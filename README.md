@@ -9,7 +9,7 @@
 3. README.md
 
 ## How to run
-1. Excute function "loadData()" (Before excute, modify directory code in the loadData function.)
+1. Excute function "loadData()" (Before excute, download zipfile and unzip. and placed folder in working directory.)
 2. loadData() function return list of data frame (Assign to variable.)
 3. Excute function "dataMerge()"
 4. dataMerge() function return tidy merge data(data frame) (Assign to variable.)
