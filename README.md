@@ -4,7 +4,7 @@
 2. Lecture Name is "Getting and Cleaning Data Course Project" (week4)
 
 ## Configuration
-1. CleaningData.R: This is script what create tidy data set.
+1. run_analysis.R: This is script what create tidy data set.
 2. codebook.txt: This is code book that explain created data set variable.
 3. README.md
 
