@@ -1,0 +1,37 @@
+===================================================
+Code book
+Written by bs.kim for coursera assigment
+===================================================
+
+This code book explain data variavle created by "CleaningData.R" script.
+Created data has a 68 variable.
+==================================================
+
+1. Subject: An identifier of the subject who carried out the experiment.
+2. Activity: Activity label.
+3. Other variable
+ - Other variavle has constructure (XXXOG)
+ - First 3 digit see below
+ - Second 1 digit is "m" or "s" (m: mean, s:standard deviation)
+ - Last 1 digit is "x" or "y" or "z" (3-axial signals in the X, Y and Z directions)
+==================================================
+
+see feature_info.txt.
+
+1. t01:tBodyAcc-XYZ
+2. t02:tGravityAcc-XYZ
+3. t03:tBodyAccJerk-XYZ
+4. t04:tBodyGyro-XYZ
+5. t05:tBodyGyroJerk-XYZ
+6. t06:tBodyAccMag
+7. t07:tGravityAccMag
+8. t08:tBodyAccJerkMag
+9. t09:tBodyGyroMag
+10. t10:tBodyGyroJerkMag
+11. f01:fBodyAcc-XYZ
+12. f02:fBodyAccJerk-XYZ
+13. f03:fBodyGyro-XYZ
+14. f04:fBodyAccMag
+15. f05:fBodyAccJerkMag
+16. f06:fBodyGyroMag
+17. f06:fBodyGyroJerkMag
