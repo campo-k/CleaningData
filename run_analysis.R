@@ -98,5 +98,6 @@ avrBySubjectAndActivity <- function(dataSet) {
     library(reshape2)
     meltDataSet <- melt(dataSet, id=c("subject", "activity"))
     aggData <- dcast(meltDataSet, subject + activity ~ variable, mean)
+    write.table(aggData, file="~/tidyData.txt", row.names=FALSE)
     aggData
 }

@@ -1,22 +1,23 @@
 ===================================================
 Code book
-Written by bs.kim for coursera assigment
+Written by kim for coursera assigment (2016.11.11)
 ===================================================
 
-This code book explain data variavle created by "CleaningData.R" script.
+This code book explain data variavle created by “run_analysis.R” script.
 Created data has a 68 variable.
 ==================================================
 
 1. Subject: An identifier of the subject who carried out the experiment.
 2. Activity: Activity label.
-3. Other variable
+3. Other variable (rest 66 variable)
  - Other variavle has constructure (XXXOG)
  - First 3 digit see below
  - Second 1 digit is "m" or "s" (m: mean, s:standard deviation)
  - Last 1 digit is "x" or "y" or "z" (3-axial signals in the X, Y and Z directions)
+ - This last 1 digit may not exist.
 ==================================================
 
-see feature_info.txt.
+see feature_info.txt. (file in downloaded zip file)
 
 1. t01:tBodyAcc-XYZ
 2. t02:tGravityAcc-XYZ

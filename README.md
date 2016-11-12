@@ -5,7 +5,7 @@
 
 ## Configuration
 1. run_analysis.R: This is script what create tidy data set.
-2. codebook.txt: This is code book that explain created data set variable.
+2. codebook.txt: This is code book that explain created data set variable. (for this text file you need "feature_info.txt" what in downloaded zip file)
 3. README.md
 
 ## How to run
